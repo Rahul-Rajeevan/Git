@@ -1,0 +1,17 @@
+{
+  "name": "tdi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "homepage": "https://Rahul-Rajeevan.github.io/Git",
+  "scripts": {
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
