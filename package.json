@@ -5,8 +5,9 @@
   "main": "script.js",
   "homepage": "https://Rahul-Rajeevan.github.io/Git",
   "scripts": {
-    "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "start": "react-scripts start",
+  "build": "react-scripts build",
+  "deploy": "npm run build && gh-pages -d build"
   },
   "keywords": [],
   "author": "",
